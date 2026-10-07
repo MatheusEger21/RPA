@@ -22,4 +22,4 @@ for produto in soup.select('#layer-product-list .product-item-details'):
     })
 
 df = pd.DataFrame(produtos)
-df.to_csv('cervejas.csv')
+df.to_csv(f'{hoje} - Cervejas.csv')
